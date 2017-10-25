@@ -38,6 +38,17 @@ header {
 .text-under-coffeimg {
     text-align: center;
     letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.photo-section {
+    margin-bottom: 40px;
 }
 
 /*/////////////////////////////End///////////////////////////////////////*/
+.article-about-bootstrap {
+    
+}
+.text-about-bootstrap p {
+    text-align: justify;
+}
