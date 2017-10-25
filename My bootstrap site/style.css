@@ -9,6 +9,7 @@
 }
 header {
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 /*
 .first-row {
@@ -26,4 +27,17 @@ header {
     display: inline-block;
     padding: 30px 15px;
 }
+/*/////////////////////////////End///////////////////////////////////////*/
+
+/*/////////////////////////////Img style//////////////////////////*/
+
+.coffe-img {
+    max-width: 100%;
+}
+
+.text-under-coffeimg {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 /*/////////////////////////////End///////////////////////////////////////*/
