@@ -8,9 +8,22 @@
     padding: 10px 20px;
 }
 header {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 /*
 .first-row {
     margin-top: 20px;
 }*/
+
+/*/////////////////////////////Navigation style//////////////////////////*/
+.main-nav div ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+.main-nav div ul li {
+    display: inline-block;
+    padding: 30px 15px;
+}
+/*/////////////////////////////End///////////////////////////////////////*/
