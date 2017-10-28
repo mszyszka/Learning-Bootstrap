@@ -164,7 +164,26 @@ header {
 }
 
 .grid-section-row {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.row1 .point {
+    background-color: #7952b3;
+}
+.row2 .point {
+    background-color: red;
+}
+.row3 .point {
+    background-color: blue;
+}
+.row4 .point {
+    background-color: green;
+}
+.row5 .point {
+    background-color: orange;
+}
+.row6 .point {
+    background-color: #7952b3;
 }
 /*//////////////////////////////////////////////////End////////////////////////////////////////////////*/
 
