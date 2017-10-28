@@ -12,6 +12,9 @@
     text-align: justify;
 }
 
+.clearfix {
+    clear: both;
+}
 
 /*//////////////////////////////////////////////Header style///////////////////////////////////////////////*/
 
@@ -154,7 +157,24 @@ header {
 /*///////////////////////////////////////////////////End////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////Section grid style///////////////////////////////////////*/
-
+.grid-header {
+    display: inline-block;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #7952b3;
+    text-align: center;
+    float: left;
+}
+h3 .grid-header-txt {
+    letter-spacing: 6px;
+    
+}
 .point {
     width: 20px;
     height: 20px;
