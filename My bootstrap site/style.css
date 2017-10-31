@@ -23,6 +23,30 @@
 }
 
 
+/*//////////////////////////////////////////////Top button style///////////////////////////////////////////////*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:  #7952b3; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 25px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+/*    letter-spacing: 1px;*/
+}
+
+#myBtn:hover {
+    background-color: #573091; /* Add a dark-grey background on hover */
+}
+
+/*//////////////////////////////////////////////////////End////////////////////////////////////////////////////*/
+
+
 /*//////////////////////////////////////////////Header style///////////////////////////////////////////////*/
 
 header {
@@ -79,6 +103,16 @@ header {
 .main-nav div ul li {
     display: inline-block;
     padding: 30px 15px;
+}
+.main-nav div ul li a {
+    color: #7952b3;
+    text-decoration: none;
+    
+}
+.main-nav div ul li a:hover {
+    color: #573091;
+    text-decoration: none;
+    
 }
 
 
@@ -336,8 +370,14 @@ footer i {
     .logo-row {
         text-align: center;
     }
+    .first-row {
+        margin-bottom: 50px;
+    }
     .main-nav div ul li:first-child {
         padding: 30px 15px 15px 15px;
+    }
+    .main-nav div ul li:last-child {
+        font-weight: 500;
     }
     .main-nav div ul li {
         display: block;
@@ -360,7 +400,7 @@ footer i {
     }
     .logo span {
         font-weight: 500;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 }
 
