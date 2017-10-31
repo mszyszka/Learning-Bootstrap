@@ -73,7 +73,6 @@ header {
     list-style-type: none;
     float: right;
     color: #7952b3;
-    font-weight: 500;
     font-size: 18px;
 }
 
@@ -298,19 +297,15 @@ footer i {
         padding-top: 20%;
     }
     .main-nav div ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    float: left;
-    color: #7952b3;
-    font-weight: 500;
-    font-size: 1rem;
-}
-
-.main-nav div ul li {
-    display: inline-block;
-    padding: 30px 15px;
-}
+        float: left;
+        font-size: 1rem;
+    }
+    .main-nav div ul li {
+        padding: 30px 15px;
+    }
+    .main-nav div ul li:first-child {
+        padding: 30px 10px 30px 0;
+    }
 }
 
 @media(max-width: 643px) {
@@ -321,18 +316,10 @@ footer i {
         letter-spacing: 8px;
         font-size: 4rem;
     }
-    .fa-hashtag {}
-}
-
-@media(max-width: 456px) {
-    h3 {
-        font-size: 1.2rem;
+    .logo span {
+        font-weight: 500;
+        font-size: 1.4rem;
     }
-    h3 .grid-header-txt {
-        letter-spacing: 6px;
-        font-size: 3.2rem;
-    }
-    .fa-hashtag {}
 }
 
 @media(max-width: 468px) {
@@ -345,12 +332,48 @@ footer i {
     .header-txt-h2 {
         font-size: 1.6rem;
     }
+    
+    .logo-row {
+        text-align: center;
+    }
+    .main-nav div ul li:first-child {
+        padding: 30px 15px 15px 15px;
+    }
+    .main-nav div ul li {
+        display: block;
+        padding: 15px 15px;
+    }
+    .main-nav div ul {
+        width: 100%;
+        text-align: center;
+    }
+    
 }
+
+@media(max-width: 456px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+    h3 .grid-header-txt {
+        letter-spacing: 6px;
+        font-size: 3.2rem;
+    }
+    .logo span {
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+}
+
+
 
 @media(max-width: 440px) {
     .overlay .link {
         padding-top: 17%;
     }
+    .nav-row {
+        text-align: center;
+    }
+    
 }
 
 @media(max-width: 350px) {
@@ -358,6 +381,14 @@ footer i {
         font-size: 1.4rem;
         line-height: 1.4rem;
     }
+    .main-nav div ul li:first-child {
+        padding: 30px 15px 15px 15px;
+    }
+    .main-nav div ul li {
+        display: block;
+        padding: 15px 15px;
+    }
+    
 }
 
 
