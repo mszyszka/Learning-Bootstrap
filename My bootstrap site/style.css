@@ -227,7 +227,7 @@ h3 {
     text-align: center;
     /*    letter-spacing: 1px;*/
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #7952b3;
     text-align: center;
@@ -238,7 +238,7 @@ h3 .grid-header-txt {
     letter-spacing: 12px;
     font-weight: 700;
     font-style: italic;
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .fa-hashtag {
