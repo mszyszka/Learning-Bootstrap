@@ -16,6 +16,7 @@
 
 .text-about-bootstrap p {
     text-align: justify;
+    font-size: 1.1rem;
 }
 
 .clearfix {
@@ -245,7 +246,7 @@ h3 .grid-header-txt {
     color: #7952b3;
     vertical-align: middle;
     font-weight: 500;
-    margin-bottom: 120px;
+    margin-bottom: 40px;
 }
 
 .point {
@@ -281,9 +282,16 @@ h3 .grid-header-txt {
 }
 
 .row6 .point {
-    background-color: #7952b3;
+    background-color: #000000;
 }
 
+.grid-txt {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 120px;
+    font-size: 1.2rem;
+}
 
 /*//////////////////////////////////////////////////End////////////////////////////////////////////////*/
 
@@ -323,7 +331,6 @@ footer i {
         letter-spacing: 10px;
         font-size: 5rem;
     }
-    .fa-hashtag {}
 }
 
 @media(max-width: 767px) {
@@ -413,7 +420,9 @@ footer i {
     .nav-row {
         text-align: center;
     }
-    
+    .grid-txt {
+        width: 80%;
+    }
 }
 
 @media(max-width: 350px) {
