@@ -347,6 +347,12 @@ footer i {
     .main-nav div ul li:first-child {
         padding: 30px 10px 30px 0;
     }
+    header {
+        margin-bottom: 100px;
+    }
+    .bootstrap-txt-col{
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width: 643px) {
@@ -360,6 +366,12 @@ footer i {
     .logo span {
         font-weight: 500;
         font-size: 1.4rem;
+    }
+    #myBtn {
+        font-size: 0.8rem;
+        padding: 15px;
+        bottom: 30px;
+        right: 30px;
     }
 }
 
